@@ -22,13 +22,13 @@ class IngestionPipeline:
         self.location= location
         self.activities= activities
     
-    def embed_data(self):
-        try:
-            embeddings= embeddings_model.embed_documents(self.activities)
-            return embeddings
-        except Exception as e:
-            print(f"Error embedding documents: {e}")
-            return []
+    # def embed_data(self):
+    #     try:
+    #         embeddings= embeddings_model.embed_documents(self.activities)
+    #         return embeddings
+    #     except Exception as e:
+    #         print(f"Error embedding documents: {e}")
+    #         return []
     
     def ingest_activities(self):
         try:
@@ -38,7 +38,6 @@ class IngestionPipeline:
             document={
                 "location": self.location,
                 "activities": self.activities,
-                "embeddings": self.embed_data()
             })
         except Exception as e:
             print(f"Error ingesting data to ElasticSearch: {e}")
