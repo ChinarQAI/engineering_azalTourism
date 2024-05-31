@@ -1,0 +1,84 @@
+{
+  "tour_package": {
+    "destination": "Kerala, India",
+    "duration": "4 days",
+    "summary":
+    "This 4-day tour package to Kerala includes visits to Kochi and Munnar. The itinerary features visits to Fort Kochi, Mattancherry Palace, Cheeyappara and Valara Waterfalls, Eravikulam National Park, and the Tea Museum. Accommodations are provided in Kochi and Munnar with most meals included.",
+    "keywords": [
+        "Kerala", "Kochi", "Munnar", "Fort Kochi", "Mattancherry Palace", "Waterfalls", "Eravikulam National Park", "Tea Museum", "Backwaters", "Nature", "Wildlife", "Hill station"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi",
+        "activities": [
+          "Arrive at Kochi Airport",
+          "Transfer to hotel",
+          "Visit Fort Kochi and Mattancherry Palace",
+          "Overnight stay in Kochi"
+        ],
+        "meals_included": ["Dinner"],
+        "accommodation": "Hotel in Kochi"
+      },
+      {
+        "day": 2,
+        "title": "Kochi to Munnar",
+        "activities": [
+          "Breakfast at the hotel",
+          "Drive to Munnar",
+          "Visit Cheeyappara Waterfalls and Valara Waterfalls en route",
+          "Check-in at hotel in Munnar",
+          "Overnight stay in Munnar"
+        ],
+        "meals_included": ["Breakfast", "Dinner"],
+        "accommodation": "Hotel in Munnar"
+      },
+      {
+        "day": 3,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Breakfast at the hotel",
+          "Visit Eravikulam National Park",
+          "Visit Tea Museum and Mattupetty Dam",
+          "Explore local markets",
+          "Overnight stay in Munnar"
+        ],
+        "meals_included": ["Breakfast", "Dinner"],
+        "accommodation": "Hotel in Munnar"
+      },
+      {
+        "day": 4,
+        "title": "Departure from Munnar",
+        "activities": [
+          "Breakfast at the hotel",
+          "Drive back to Kochi",
+          "Shopping or sightseeing in Kochi (time permitting)",
+          "Transfer to Kochi Airport"
+        ],
+        "meals_included": ["Breakfast"],
+        "accommodation": "Not included"
+      }
+    ],
+    "inclusions": [
+      "Accommodation as mentioned",
+      "Meals as mentioned",
+      "Transfers and sightseeing by private vehicle",
+      "Entrance fees to Eravikulam National Park",
+      "Visit to Tea Museum"
+    ],
+    "exclusions": [
+      "Airfare",
+      "Personal expenses",
+      "Travel insurance",
+      "Optional activities",
+      "Other entrance fees not mentioned"
+    ],
+    "price_per_person": 22000,
+    "currency": "INR",
+    "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+    }
+  }
+}

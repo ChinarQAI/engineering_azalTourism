@@ -1,0 +1,73 @@
+{
+    "tour_package": {
+      "destination": "Rishikesh and Haridwar, India",
+      "duration": "3 days",
+      "summary":
+      "This 3-day tour package includes visits to Rishikesh and Haridwar. The itinerary features activities such as Ganga Aarti, visits to Lakshman Jhula, Ram Jhula, and various ashrams, as well as optional adventure sports like white-water rafting. Accommodations are provided in both Rishikesh and Haridwar with most meals included.",
+      "keywords": [
+        "Rishikesh", "Haridwar", "Ganga Aarti", "Lakshman Jhula", "Ram Jhula", "Ashrams", "Adventure sports", "White-water rafting", "Yoga", "Spirituality", "Himalayas", "Pilgrimage"
+      ],    
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Haridwar",
+          "activities": [
+            "Arrive at Haridwar Railway Station/Airport",
+            "Transfer to hotel",
+            "Visit Har Ki Pauri",
+            "Attend Ganga Aarti in the evening",
+            "Overnight stay in Haridwar"
+          ],
+          "meals_included": ["Dinner"],
+          "accommodation": "Hotel in Haridwar"
+        },
+        {
+          "day": 2,
+          "title": "Haridwar to Rishikesh",
+          "activities": [
+            "Breakfast at the hotel",
+            "Drive to Rishikesh",
+            "Visit Lakshman Jhula and Ram Jhula",
+            "Explore various ashrams (e.g., Parmarth Niketan, Sivananda Ashram)",
+            "Optional white-water rafting",
+            "Overnight stay in Rishikesh"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Rishikesh"
+        },
+        {
+          "day": 3,
+          "title": "Departure from Rishikesh",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Triveni Ghat",
+            "Explore local markets or participate in yoga sessions",
+            "Transfer to Haridwar Railway Station/Airport"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Entrance fees to ashrams",
+        "Ganga Aarti ceremony"
+      ],
+      "exclusions": [
+        "Airfare/Railway fare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities like white-water rafting",
+        "Other entrance fees not mentioned"
+      ],
+      "price_per_person": 15000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }

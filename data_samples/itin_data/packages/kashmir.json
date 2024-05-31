@@ -1,0 +1,86 @@
+{
+    "tour_package": {
+      "destination": "Kashmir, India",
+      "duration": "4 days",
+      "summary":
+      "This 4-day tour package to Kashmir includes visits to Srinagar, Gulmarg, and Pahalgam. The itinerary covers a Shikara ride on Dal Lake, a Gondola ride in Gulmarg, and excursions to Betaab Valley and Aru Valley in Pahalgam. Accommodations are provided in Srinagar with most meals included.",
+      "keywords": [
+        "Kashmir", "Srinagar", "Gulmarg", "Pahalgam", "Dal Lake", "Shikara ride", "Gondola ride", "Betaab Valley", "Aru Valley", "Houseboat", "Mountains", "Nature"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Srinagar",
+          "activities": [
+            "Arrive at Srinagar Airport",
+            "Transfer to hotel/houseboat",
+            "Shikara ride on Dal Lake",
+            "Overnight stay in Srinagar"
+          ],
+          "meals_included": ["Lunch", "Dinner"],
+          "accommodation": "Hotel/Houseboat in Srinagar"
+        },
+        {
+          "day": 2,
+          "title": "Srinagar to Gulmarg",
+          "activities": [
+            "Breakfast at the hotel",
+            "Drive to Gulmarg",
+            "Gondola ride to Khilanmarg",
+            "Explore local markets",
+            "Return to Srinagar",
+            "Overnight stay in Srinagar"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel/Houseboat in Srinagar"
+        },
+        {
+          "day": 3,
+          "title": "Srinagar to Pahalgam",
+          "activities": [
+            "Breakfast at the hotel",
+            "Drive to Pahalgam",
+            "Visit Betaab Valley and Aru Valley",
+            "Horse riding or trekking (optional)",
+            "Return to Srinagar",
+            "Overnight stay in Srinagar"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel/Houseboat in Srinagar"
+        },
+        {
+          "day": 4,
+          "title": "Departure from Srinagar",
+          "activities": [
+            "Breakfast at the hotel",
+            "Shopping or sightseeing in Srinagar (time permitting)",
+            "Transfer to Srinagar Airport"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Shikara ride on Dal Lake",
+        "Gondola ride in Gulmarg"
+      ],
+      "exclusions": [
+        "Airfare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities",
+        "Entrance fees to monuments and parks"
+      ],
+      "price_per_person": 25000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }
+  

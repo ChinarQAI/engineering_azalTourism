@@ -1,0 +1,92 @@
+{
+    "tour_package": {
+      "destination": "Goa, India",
+      "duration": "5 days",
+      "summary":
+      "This 5-day tour package to Goa covers the best of both North and South Goa. The itinerary includes visits to popular beaches, historical churches, spice plantations, and Dudhsagar Waterfalls. It also features a river cruise on Mandovi River. Accommodations are provided in both North and South Goa with most meals included.",
+      "keywords": [
+        "Goa", "North Goa", "South Goa", "Beaches", "Dudhsagar Waterfalls", "Spice Plantation", "River Cruise", "Historical churches", "Nightlife", "Water sports", "Sunset", "Portuguese architecture"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Goa",
+          "activities": [
+            "Arrive at Goa Airport",
+            "Transfer to hotel",
+            "Relax at the beach",
+            "Overnight stay in Goa"
+          ],
+          "meals_included": ["Dinner"],
+          "accommodation": "Hotel in Goa"
+        },
+        {
+          "day": 2,
+          "title": "North Goa Sightseeing",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Fort Aguada and Calangute Beach",
+            "Visit Baga Beach and Anjuna Beach",
+            "Overnight stay in Goa"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Goa"
+        },
+        {
+          "day": 3,
+          "title": "South Goa Sightseeing",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Basilica of Bom Jesus and Se Cathedral",
+            "Visit Colva Beach and Palolem Beach",
+            "Overnight stay in Goa"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Goa"
+        },
+        {
+          "day": 4,
+          "title": "Day at Leisure",
+          "activities": [
+            "Breakfast at the hotel",
+            "Leisure day for water sports or spa",
+            "Overnight stay in Goa"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Goa"
+        },
+        {
+          "day": 5,
+          "title": "Departure from Goa",
+          "activities": [
+            "Breakfast at the hotel",
+            "Shopping or sightseeing in Goa (time permitting)",
+            "Transfer to Goa Airport"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Entrance fees to Fort Aguada and Basilica of Bom Jesus"
+      ],
+      "exclusions": [
+        "Airfare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities",
+        "Other entrance fees not mentioned"
+      ],
+      "price_per_person": 30000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }
+  

@@ -1,0 +1,106 @@
+{
+    "tour_package": {
+      "destination": "Andaman Islands, India",
+      "duration": "6 days",
+      "summary":
+      "This 6-day tour package to the Andaman Islands includes visits to Port Blair, Havelock Island, and Neil Island. The itinerary covers a visit to the Cellular Jail, a Light and Sound Show, Radhanagar Beach, snorkeling at Elephant Beach, and exploring the coral reefs at Bharatpur Beach. Accommodations are provided in Port Blair, Havelock Island, and Neil Island with most meals included.",
+      "keywords": [
+        "Andaman Islands", "Port Blair", "Havelock Island", "Neil Island", "Cellular Jail", "Radhanagar Beach", "Elephant Beach", "Bharatpur Beach", "Snorkeling", "Coral reefs", "Beaches", "Islands", "Water sports", "Nature", "Marine life"
+      ],      
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Port Blair",
+          "activities": [
+            "Arrive at Port Blair Airport",
+            "Transfer to hotel",
+            "Visit Cellular Jail",
+            "Light and Sound Show at Cellular Jail",
+            "Overnight stay in Port Blair"
+          ],
+          "meals_included": ["Dinner"],
+          "accommodation": "Hotel in Port Blair"
+        },
+        {
+          "day": 2,
+          "title": "Port Blair to Havelock Island",
+          "activities": [
+            "Breakfast at the hotel",
+            "Ferry to Havelock Island",
+            "Visit Radhanagar Beach",
+            "Overnight stay in Havelock Island"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Havelock Island"
+        },
+        {
+          "day": 3,
+          "title": "Havelock Island",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Elephant Beach",
+            "Snorkeling (optional)",
+            "Overnight stay in Havelock Island"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Havelock Island"
+        },
+        {
+          "day": 4,
+          "title": "Havelock Island to Neil Island",
+          "activities": [
+            "Breakfast at the hotel",
+            "Ferry to Neil Island",
+            "Visit Laxmanpur Beach and Bharatpur Beach",
+            "Overnight stay in Neil Island"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Neil Island"
+        },
+        {
+          "day": 5,
+          "title": "Neil Island to Port Blair",
+          "activities": [
+            "Breakfast at the hotel",
+            "Ferry to Port Blair",
+            "Visit Corbyn's Cove Beach",
+            "Overnight stay in Port Blair"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Port Blair"
+        },
+        {
+          "day": 6,
+          "title": "Departure from Port Blair",
+          "activities": [
+            "Breakfast at the hotel",
+            "Shopping or sightseeing in Port Blair (time permitting)",
+            "Transfer to Port Blair Airport"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Ferry tickets to Havelock and Neil Islands",
+        "Entrance fees to Cellular Jail"
+      ],
+      "exclusions": [
+        "Airfare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities",
+        "Other entrance fees not mentioned"
+      ],
+      "price_per_person": 35000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }

@@ -1,0 +1,70 @@
+{
+    "tour_package": {
+      "destination": "Jaipur, India",
+      "duration": "3 days",
+      "summary":
+      "This 3-day tour package to Jaipur includes visits to iconic landmarks such as the City Palace, Jantar Mantar, Amber Fort, Hawa Mahal, and Jal Mahal. The package includes accommodations in Jaipur with most meals provided.",
+      "keywords": [
+        "Jaipur", "City Palace", "Jantar Mantar", "Amber Fort", "Hawa Mahal", "Jal Mahal", "Rajasthan", "Historical landmarks", "Palaces", "Forts", "Culture", "Architecture"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Jaipur",
+          "activities": [
+            "Arrive at Jaipur Airport",
+            "Transfer to hotel",
+            "Visit City Palace and Jantar Mantar",
+            "Overnight stay in Jaipur"
+          ],
+          "meals_included": ["Dinner"],
+          "accommodation": "Hotel in Jaipur"
+        },
+        {
+          "day": 2,
+          "title": "Jaipur Sightseeing",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Amber Fort and Hawa Mahal",
+            "Explore local markets",
+            "Visit Jal Mahal",
+            "Overnight stay in Jaipur"
+          ],
+          "meals_included": ["Breakfast", "Dinner"],
+          "accommodation": "Hotel in Jaipur"
+        },
+        {
+          "day": 3,
+          "title": "Departure from Jaipur",
+          "activities": [
+            "Breakfast at the hotel",
+            "Shopping or sightseeing in Jaipur (time permitting)",
+            "Transfer to Jaipur Airport"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Entrance fees to City Palace and Jantar Mantar"
+      ],
+      "exclusions": [
+        "Airfare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities",
+        "Other entrance fees not mentioned"
+      ],
+      "price_per_person": 15000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }
+  

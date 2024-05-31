@@ -1,0 +1,58 @@
+{
+    "tour_package": {
+      "destination": "Agra, India",
+      "duration": "2 days",
+      "summary":
+      "This 2-day tour package to Agra includes visits to the Taj Mahal, Agra Fort, and Fatehpur Sikri. The package offers a quick yet comprehensive visit to these historical sites with accommodation in Agra and most meals included.", 
+      "keywords": [
+        "Agra", "Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Historical monuments", "Short tour", "Uttar Pradesh", "Mughal architecture","Heritage", "UNESCO World Heritage Site"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Agra",
+          "activities": [
+            "Arrive at Agra",
+            "Visit Taj Mahal",
+            "Visit Agra Fort",
+            "Overnight stay in Agra"
+          ],
+          "meals_included": ["Dinner"],
+          "accommodation": "Hotel in Agra"
+        },
+        {
+          "day": 2,
+          "title": "Departure from Agra",
+          "activities": [
+            "Breakfast at the hotel",
+            "Visit Fatehpur Sikri",
+            "Shopping or sightseeing in Agra (time permitting)",
+            "Transfer to departure point"
+          ],
+          "meals_included": ["Breakfast"],
+          "accommodation": "Not included"
+        }
+      ],
+      "inclusions": [
+        "Accommodation as mentioned",
+        "Meals as mentioned",
+        "Transfers and sightseeing by private vehicle",
+        "Entrance fees to Taj Mahal and Agra Fort"
+      ],
+      "exclusions": [
+        "Airfare",
+        "Personal expenses",
+        "Travel insurance",
+        "Optional activities",
+        "Other entrance fees not mentioned"
+      ],
+      "price_per_person": 10000,
+      "currency": "INR",
+      "contact_information": {
+        "tour_operator": "Kashmir Travels",
+        "phone": "+91-1234567890",
+        "email": "info@kashmirtravels.com"
+      }
+    }
+  }
+  
