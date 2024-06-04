@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from schemas import ActivitiesInput
 
 # Import the activities_ingestion_driver function from the ingestion module
-from src.ingestion import activities_ingestion_driver
+from src.itinerary_generation.ingestion import activities_ingestion_driver
 
 # Creating a FastAPI instance
 app = FastAPI()
