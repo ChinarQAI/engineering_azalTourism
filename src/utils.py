@@ -1,15 +1,20 @@
 import json
-from elasticsearch import Elasticsearch  
+from elasticsearch import Elasticsearch
 from langchain_community.chat_message_histories import ElasticsearchChatMessageHistory
-from dotenv import load_dotenv  
+from dotenv import load_dotenv
 import os
-
-from langchain_openai import ChatOpenAI 
+from langchain_elasticsearch import ElasticsearchStore
+from langchain_openai import ChatOpenAI
 from langchain import hub
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 # Load environment variables from a .env file
 load_dotenv()
+
+from langchain_openai import OpenAIEmbeddings
+
+embeddings = OpenAIEmbeddings(api_key=os.environ.get("OPENAI_API_KEY"))
+
 
 def setup_es_client() -> Elasticsearch:
     """
@@ -33,8 +38,10 @@ def setup_es_client() -> Elasticsearch:
 
     return es_client
 
+
 # Create the Elasticsearch client by calling the setup function
 es_client = setup_es_client()
+
 
 def setup_llm() -> object:
     """
@@ -45,7 +52,7 @@ def setup_llm() -> object:
     """
 
     # load the json string from the env
-    llm_settings_str= os.environ.get("MODEL_SETTINGS")
+    llm_settings_str = os.environ.get("MODEL_SETTINGS")
 
     # Parse the JSON string into a dictionary
     llm_settings = json.loads(llm_settings_str)
@@ -59,8 +66,10 @@ def setup_llm() -> object:
     )
     return llm_model
 
+
 # Setting up llm Model
-llm= setup_llm()
+llm = setup_llm()
+
 
 def get_memory(session_id) -> object:
     """
@@ -72,11 +81,13 @@ def get_memory(session_id) -> object:
     Returns:
         object: Conversational Memory object.
     """
-    # Create a ES MessageHistory instance for storing message history
+    # Create an ES MessageHistory instance for storing message history
     message_history = ElasticsearchChatMessageHistory(
-        es_url=os.environ.get("ES_ENDPOINT"), es_api_key=os.environ.get("ES_API"), index="itin-memory", session_id=session_id, esnsure_ascii=True
+        es_url=os.environ.get("ES_ENDPOINT"), es_api_key=os.environ.get("ES_API"), index="itin-memory",
+        session_id=session_id, esnsure_ascii=True
     )
     return message_history
+
 
 def get_prompt(prompt_id) -> str:
     """
@@ -89,5 +100,12 @@ def get_prompt(prompt_id) -> str:
         str: The fetched prompt.
     """
     return hub.pull(prompt_id)
-    
 
+
+def setup_es_store(index_name: str, es_client: Elasticsearch):
+    es_vector_store = ElasticsearchStore(
+        embedding=embeddings,
+        index_name=index_name,
+        es_connection=es_client
+    )
+    return es_vector_store

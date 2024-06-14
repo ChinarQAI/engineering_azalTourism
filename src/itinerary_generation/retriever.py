@@ -1,4 +1,10 @@
+import sys
+
+sys.path.insert(1, "src")
+sys.path.insert(2, "app")
+
 from utils import es_client
+
 
 # JUST SOME TEST CODE FOR DOC RETRIEVAL
 def get_activities_by_location(index_name: str, location: str):
@@ -15,11 +21,11 @@ def get_activities_by_location(index_name: str, location: str):
     else:
         return None
 
-if __name__ == "__main__":
 
-    index_name= "azal_activities"
-    location= "bursa"
-    activities= get_activities_by_location(index_name, location)
+if __name__ == "__main__":
+    index_name = "azal_activities"
+    location = "bursa"
+    activities = get_activities_by_location(index_name, location)
     print(type(activities))
     # Print the activities
     print(activities)
