@@ -19,6 +19,7 @@ class IngestionPipeline:
 
         Args:
             location (str): The location name.
+            activity_address (str): The street address of the activity
             activity_title (str): The title of the activity.
             duration (str): The duration of the activity.
             activity_description (str): The description of the activity.
@@ -26,20 +27,20 @@ class IngestionPipeline:
             max_price (str): The maximum price of the activity.
         """
 
-    def __init__(self, location: str, activity_title: str, duration: str, activity_description: str, min_price: str,
-                 max_price: str, activity_address: str):
+    def __init__(self, location: str, activity_address: str, activity_title: str, duration: str,
+                 activity_description: str, min_price: str, max_price: str):
         """
         Ingest the activity data into Elasticsearch.
 
         This method indexes the provided location and activity into the 'azal_activities' index.
         """
         self.location = location
+        self.activity_address = activity_address
         self.activity_title = activity_title
-        self.activity_description = activity_description
         self.duration = duration
+        self.activity_description = activity_description
         self.min_price = min_price
         self.max_price = max_price
-        self.activity_address = activity_address
 
     def ingest_activities(self):
         """
@@ -57,13 +58,13 @@ class IngestionPipeline:
             text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=0)
             docs = text_splitter.split_documents([document])
             for i, doc in enumerate(docs):
+                doc.metadata["location"] = self.location
+                doc.metadata["activity_address"] = self.activity_address
                 doc.metadata["activity_title"] = self.activity_title
                 doc.metadata["activity_description"] = self.activity_description
                 doc.metadata["min_price"] = self.min_price
                 doc.metadata["max_price"] = self.max_price
                 doc.metadata["duration"] = self.duration
-                doc.metadata["location"] = self.location
-                doc.metadata["activity_address"] = self.activity_address
 
             es_store.from_documents(
                 docs,  # from_documents expects a list of documents
@@ -79,14 +80,16 @@ class IngestionPipeline:
             print(f"Error ingesting data to Elasticsearch: {e}")
 
 
-def activities_ingestion_driver(location: str, activity_title: str, duration: str, activity_description: str,
-                                min_price: str, max_price: str, activity_address: str):
+def activities_ingestion_driver(location: str, activity_address: str, activity_title: str, duration: str,
+                                activity_description: str,
+                                min_price: str, max_price: str):
     """
     Driver function to ingest activities for a given location into Elasticsearch.
 
     Args:
-        activity_address: The street address of the activity
+
         location (str): The location name.
+        activity_address (str): The street address of the activity
         activity_title (str): The title of the activity.
         duration (str): The duration of the activity.
         activity_description (str): The description of the activity.
@@ -95,10 +98,14 @@ def activities_ingestion_driver(location: str, activity_title: str, duration: st
     """
     try:
         # Create an instance of IngestionPipeline with the provided details
-        pipeline = IngestionPipeline(location, activity_title, duration, activity_description, min_price, max_price,
-                                     activity_address)
+        pipeline = IngestionPipeline(location, activity_address, activity_title, duration, activity_description,
+                                     min_price, max_price)
 
         # Use the ingest_activities method to insert data into Elasticsearch
         pipeline.ingest_activities()
     except Exception as e:
         print(f"Error during ingestion process: {e}")
+
+
+
+

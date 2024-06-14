@@ -6,3 +6,4 @@ redis==5.0.4
 uvicorn==0.29.0
 langchainhub==0.1.15
 fastapi==0.111.0
+langchain-elasticsearch==0.2.2

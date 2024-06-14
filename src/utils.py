@@ -103,6 +103,18 @@ def get_prompt(prompt_id) -> str:
 
 
 def setup_es_store(index_name: str, es_client: Elasticsearch):
+    """
+       Sets up and returns an ElasticsearchStore index for storing embeddings and for RAG.
+
+       Args:
+           index_name (str): The name of the Elasticsearch index where embeddings will be stored.
+           es_client (Elasticsearch): An instance of the Elasticsearch client connected to the Elasticsearch cluster.
+
+       Returns:
+           ElasticsearchStore: An instance of ElasticsearchStore configured with the provided index name,
+                                embeddings, and Elasticsearch connection.
+
+       """
     es_vector_store = ElasticsearchStore(
         embedding=embeddings,
         index_name=index_name,

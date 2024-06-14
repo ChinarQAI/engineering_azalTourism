@@ -3,7 +3,9 @@ import sys
 sys.path.insert(1, "src")
 sys.path.insert(2, "app")
 
-from utils import es_client
+from utils import es_client, setup_es_store
+
+es_store = setup_es_store("azal_activities", es_client)
 
 
 # JUST SOME TEST CODE FOR DOC RETRIEVAL
@@ -23,9 +25,9 @@ def get_activities_by_location(index_name: str, location: str):
 
 
 if __name__ == "__main__":
-    index_name = "azal_activities"
-    location = "bursa"
-    activities = get_activities_by_location(index_name, location)
-    print(type(activities))
-    # Print the activities
-    print(activities)
+    # Testing some retriever funcs
+    query = "Suggest some activities in istanbul"
+    docs = es_store.similarity_search(
+        query, filter=[{"term": {"metadata.location.keyword": "Istanbul"}}]
+    )
+    print(docs)
