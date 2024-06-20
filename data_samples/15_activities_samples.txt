@@ -1,0 +1,149 @@
+activities_ingestion_driver(
+        location="Istanbul",
+        activity_title="Bosphorus Cruise",
+        activity_address="Eminönü, 34112 Fatih/Istanbul",
+        duration="2 Hours",
+        activity_description="Experience the 'Bosphorus Cruise', a 2-hour journey through the heart of Istanbul. Cruise along the Bosphorus Strait, where Europe meets Asia, and enjoy stunning views of historic landmarks, palaces, and fortresses. Prices range from $20 to $50. Refreshments are available onboard.",
+        min_price="20",
+        max_price="50"
+    )
+
+    activities_ingestion_driver(
+        location="Istanbul",
+        activity_title="Hagia Sophia Guided Tour",
+        activity_address="Ayasofya Meydanı, 34122 Fatih/Istanbul",
+        duration="1.5 Hours",
+        activity_description="Join the 'Hagia Sophia Guided Tour' for a deep dive into the history and architecture of one of Istanbul's most iconic buildings. The 1.5-hour tour covers the rich history of this former cathedral and mosque, now a museum. Prices range from $15 to $30.",
+        min_price="15",
+        max_price="30"
+    )
+
+    activities_ingestion_driver(
+        location="Istanbul",
+        activity_title="Topkapi Palace Tour",
+        activity_address="Cankurtaran, 34122 Fatih/Istanbul",
+        duration="2 Hours",
+        activity_description="Explore the 'Topkapi Palace Tour', a 2-hour tour of the opulent residence of Ottoman sultans. Discover the rich history, artifacts, and stunning architecture of this grand palace. Prices range from $25 to $45.",
+        min_price="25",
+        max_price="45"
+    )
+
+    activities_ingestion_driver(
+        location="Cappadocia",
+        activity_title="Cappadocia Hot Air Balloon Ride",
+        activity_address="Göreme, 50180 Nevşehir",
+        duration="Early Morning",
+        activity_description="Experience the 'Cappadocia Hot Air Balloon Ride', an early morning adventure located in the enchanting region of Cappadocia. This tour offers a unique perspective of the area's famous fairy chimneys and rock formations from the skies. Our expert pilots will guide you through a breathtaking flight as the sun rises, illuminating the stunning landscape below. The ride takes place in the early morning, providing the best light and weather conditions for a spectacular view. Prices for this unforgettable experience range from $150 to $250. Enjoy a light breakfast before the flight and celebrate with a traditional champagne toast upon landing. The Cappadocia Hot Air Balloon Ride is an experience you will cherish forever.",
+        min_price="150",
+        max_price="250"
+    )
+
+    activities_ingestion_driver(
+        location="Cappadocia",
+        activity_title="Cappadocia Underground City Tour",
+        activity_address="Derinkuyu, 50700 Nevşehir",
+        duration="3 Hours",
+        activity_description="Discover the 'Cappadocia Underground City Tour', a 3-hour exploration of ancient subterranean cities like Derinkuyu and Kaymakli. Learn about the history and purpose of these incredible underground settlements. Prices range from $35 to $70.",
+        min_price="35",
+        max_price="70"
+    )
+
+    activities_ingestion_driver(
+        location="Cappadocia",
+        activity_title="Cappadocia ATV Tour",
+        activity_address="Ürgüp, 50400 Nevşehir",
+        duration="2 Hours",
+        activity_description="Join the 'Cappadocia ATV Tour', a 2-hour off-road adventure through the unique landscapes of Cappadocia. Navigate through valleys, hills, and ancient ruins. Prices range from $45 to $80.",
+        min_price="45",
+        max_price="80"
+    )
+
+    activities_ingestion_driver(
+        location="Antalya",
+        activity_title="Antalya Old Town Tour",
+        activity_address="Kaleiçi, 07100 Muratpaşa/Antalya",
+        duration="2 Hours",
+        activity_description="Explore 'Antalya Old Town Tour', a 2-hour guided walk through the historic Kaleiçi district. Discover ancient ruins, narrow streets, and Ottoman-era architecture. Prices range from $20 to $40.",
+        min_price="20",
+        max_price="40"
+    )
+
+    activities_ingestion_driver(
+        location="Antalya",
+        activity_title="Düden Waterfalls Tour",
+        activity_address="Çağlayan, Lara Cd. No:457, 07230 Muratpaşa/Antalya",
+        duration="3 Hours",
+        activity_description="Experience the 'Düden Waterfalls Tour', a 3-hour trip to one of Antalya's most beautiful natural attractions. Enjoy the scenic beauty and the refreshing atmosphere of the waterfalls. Prices range from $25 to $50.",
+        min_price="25",
+        max_price="50"
+    )
+
+    activities_ingestion_driver(
+        location="Antalya",
+        activity_title="Antalya Aquarium Visit",
+        activity_address="Meltem, Dumlupınar Blv. No:502, 07050 Muratpaşa/Antalya",
+        duration="1.5 Hours",
+        activity_description="Visit the 'Antalya Aquarium', one of the largest tunnel aquariums in the world. Spend 1.5 hours exploring diverse marine life and themed exhibits. Prices range from $30 to $60.",
+        min_price="30",
+        max_price="60"
+    )
+
+    activities_ingestion_driver(
+        location="Pamukkale",
+        activity_title="Pamukkale Thermal Pools",
+        activity_address="Pamukkale, 20190 Denizli",
+        duration="2 Hours",
+        activity_description="Relax in the 'Pamukkale Thermal Pools', a 2-hour experience soaking in the natural hot springs of Pamukkale. Enjoy the unique calcium terraces and mineral-rich waters. Prices range from $20 to $40.",
+        min_price="20",
+        max_price="40"
+    )
+
+    activities_ingestion_driver(
+        location="Pamukkale",
+        activity_title="Hierapolis Ancient City Tour",
+        activity_address="Pamukkale, 20190 Denizli",
+        duration="3 Hours",
+        activity_description="Join the 'Hierapolis Ancient City Tour', a 3-hour guided tour of the ancient Roman city of Hierapolis. Explore the ruins, including the theater, necropolis, and baths. Prices range from $30 to $50.",
+        min_price="30",
+        max_price="50"
+    )
+
+    activities_ingestion_driver(
+        location="Pamukkale",
+        activity_title="Pamukkale Paragliding",
+        activity_address="Pamukkale, 20190 Denizli",
+        duration="1 Hour",
+        activity_description="Experience 'Pamukkale Paragliding', a thrilling 1-hour flight over the stunning landscapes of Pamukkale. Get a bird's-eye view of the thermal pools and ancient ruins. Prices range from $70 to $120.",
+        min_price="70",
+        max_price="120"
+    )
+
+    activities_ingestion_driver(
+        location="Ephesus",
+        activity_title="Ephesus Ancient City Tour",
+        activity_address="Ephesus, 35920 Selçuk/İzmir",
+        duration="3 Hours",
+        activity_description="Explore the 'Ephesus Ancient City Tour', a 3-hour guided tour of one of the best-preserved ancient cities in the world. Discover the Library of Celsus, the Great Theatre, and more. Prices range from $40 to $70.",
+        min_price="40",
+        max_price="70"
+    )
+
+    activities_ingestion_driver(
+        location="Ephesus",
+        activity_title="House of Virgin Mary Visit",
+        activity_address="Sultaniye, 35920 Selçuk/İzmir",
+        duration="1.5 Hours",
+        activity_description="Visit the 'House of Virgin Mary', a 1.5-hour tour of the site believed to be the final home of Mary, mother of Jesus. Experience the serene atmosphere and historical significance. Prices range from $15 to $30.",
+        min_price="15",
+        max_price="30"
+    )
+
+    activities_ingestion_driver(
+        location="Ephesus",
+        activity_title="Ephesus Terrace Houses Tour",
+        activity_address="Ephesus, 35920 Selçuk/İzmir",
+        duration="1 Hour",
+        activity_description="Join the 'Ephesus Terrace Houses Tour', a 1-hour tour of the luxurious homes of ancient Ephesus' elite. See well-preserved mosaics and frescoes. Prices range from $20 to $40.",
+        min_price="20",
+        max_price="40"
+    )
