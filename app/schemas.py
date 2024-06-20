@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from typing import List
 
+
 class ActivitiesInput(BaseModel):
     """
     Represents input data for ingesting activities into an application.
@@ -21,3 +22,17 @@ class ActivitiesInput(BaseModel):
     activity_description: str
     min_price: str
     max_price: str
+
+
+class Activity(BaseModel):
+    location: str
+    activity_address: str
+    activity_title: str
+    duration: str
+    activity_description: str
+    min_price: str
+    max_price: str
+
+
+class BulkActivitiesInput(BaseModel):
+    activities: List[Activity]

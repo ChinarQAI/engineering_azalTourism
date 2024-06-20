@@ -8,7 +8,7 @@ import uvicorn
 from fastapi import FastAPI, HTTPException
 
 # Import the ActivitiesInput schema for request validation
-from schemas import ActivitiesInput
+from schemas import ActivitiesInput, BulkActivitiesInput
 
 # Import the activities_ingestion_driver function from the ingestion module
 from src.itinerary_generation.ingestion import activities_ingestion_driver
@@ -58,6 +58,38 @@ async def ingest_activities(activities_input: ActivitiesInput):
                                     activities_input.min_price,
                                     activities_input.max_price)
         return {"message": f"Activities for {activities_input.location} ingested successfully."}
+    except Exception as e:
+        # Log the exception and raise an HTTPException with status code 500
+        print(f"Error Ingesting Data via Endpoint {e}")
+        raise HTTPException(status_code=500, detail="Error ingesting data")
+
+
+@app.post("/itinerary/bulk-ingest")
+async def bulk_ingest(activities_input: BulkActivitiesInput):
+    """
+        Endpoint to ingest activities for a given location.
+
+        Args:
+            activities_input (ActivitiesInput): An ActivitiesInput object containing details of activities to ingest.
+                - activities (List[Activity]): A list of Activity objects containing activity details.
+        Raises:
+            HTTPException: If there is an error during the ingestion process.
+
+        Returns:
+            dict: A dictionary indicating the success of the ingestion process.
+        """
+    try:
+        for activity in activities_input.activities:
+            activities_ingestion_driver(
+                activity.location,
+                activity.activity_address,
+                activity.activity_title,
+                activity.duration,
+                activity.activity_description,
+                activity.min_price,
+                activity.max_price
+            )
+        return {"message": f"Activities ingested sucessfully."}
     except Exception as e:
         # Log the exception and raise an HTTPException with status code 500
         print(f"Error Ingesting Data via Endpoint {e}")
