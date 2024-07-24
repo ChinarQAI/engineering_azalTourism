@@ -39,7 +39,5 @@ class BulkActivitiesInput(BaseModel):
 
 
 class ItineraryGenerationInput(BaseModel):
-    location: str
     query: str
-    number_of_days: int
     session_id: str

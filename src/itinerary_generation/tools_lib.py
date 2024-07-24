@@ -10,15 +10,8 @@ from itinerary_generation.retriever_tool import get_activities_by_location_query
 from utils import es_client, setup_es_store, llm, get_memory
 from langchain.pydantic_v1 import BaseModel, Field
 
-
-class ItineraryGenerationInput(BaseModel):
-    location: str
-    query: str
-    number_of_days: int
-    session_id: str
-
-
 es_store = setup_es_store("azal_activities", es_client)
+
 
 @tool
 def itinerary_generator_tool(query: str, location: str, number_of_days: int):

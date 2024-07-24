@@ -1,17 +1,22 @@
 import sys
 
+# Insert custom directories to system path
 sys.path.insert(1, "src")
 sys.path.insert(2, "app")
 
+# Import custom modules
 from utils import llm, get_prompt
 from langchain_core.output_parsers import StrOutputParser
 
 class ChainManager:
     """
-        Initializes the ChainManager.
+    Manages the creation of chains by combining prompts with language models.
     """
 
     def __init__(self):
+        """
+        Initializes the ChainManager.
+        """
         pass
 
     def create_chain(self, prompt_id: str):
@@ -23,16 +28,18 @@ class ChainManager:
 
         Returns:
             chain: A chain formed by combining the fetched prompt with the model.
+
+        Raises:
+            Exception: If there is an error fetching the prompt or creating the chain.
         """
+        try:
+            # Fetch prompt based on the provided prompt ID
+            prompt = get_prompt(prompt_id)
+            parser = StrOutputParser()
 
-        # Fetch prompt based on the provided prompt ID
-        prompt= get_prompt(prompt_id)
-        print("______")
-        print(prompt)
-        parser = StrOutputParser()
+            # Concatenate the fetched prompt with the model
+            return prompt | llm | parser
 
-        # Concatenate the fetched prompt with the model
-        return prompt | llm | parser
-
-if __name__ == "__main__":
-    print(get_prompt("alq-ai-team/azal_chain_prompt"))
+        except Exception as e:
+            # Handle exceptions and raise them with a message
+            raise Exception(f"Error creating chain: {str(e)}")
