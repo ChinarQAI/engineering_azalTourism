@@ -1,3 +1,4 @@
+import json
 import sys
 
 # Adding paths to import custom modules
@@ -8,11 +9,12 @@ import uvicorn
 from fastapi import FastAPI, HTTPException
 
 # Import the ActivitiesInput schema for request validation
-from schemas import ActivitiesInput, BulkActivitiesInput
+from schemas import ActivitiesInput, BulkActivitiesInput, ItineraryGenerationInput
 
 # Import the activities_ingestion_driver function from the ingestion module
 from itinerary_generation.ingestion import activities_ingestion_driver
 
+from itinerary_generation.agent_manager import execute_agent
 # Creating a FastAPI instance
 app = FastAPI()
 
@@ -26,6 +28,24 @@ async def root():
         dict: A dictionary containing a message indicating that the service is healthy and running.
     """
     return {"message": "Service is healthy and running."}
+
+
+@app.post("/azal/itinerary_generator/{location}")
+async def itinerary_generator(itinerary_generation_input: ItineraryGenerationInput):
+    in_params = {
+        "location": "istanbul",
+        "query": "i would like to visit mosques and some water activities for 5 days",
+        "number_of_days": 6,
+        "session_id": "3534"
+
+    }
+
+    print(type(in_params))
+    print(in_params)
+    response = execute_agent(in_params)
+    return response
+
+
 
 
 @app.post("/itinerary/ingest/")

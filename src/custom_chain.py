@@ -4,6 +4,7 @@ sys.path.insert(1, "src")
 sys.path.insert(2, "app")
 
 from utils import llm, get_prompt
+from langchain_core.output_parsers import StrOutputParser
 
 class ChainManager:
     """
@@ -28,9 +29,10 @@ class ChainManager:
         prompt= get_prompt(prompt_id)
         print("______")
         print(prompt)
+        parser = StrOutputParser()
 
         # Concatenate the fetched prompt with the model
-        return prompt | llm
+        return prompt | llm | parser
 
 if __name__ == "__main__":
     print(get_prompt("alq-ai-team/azal_chain_prompt"))

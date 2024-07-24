@@ -12,7 +12,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 # from tools_lib import tools_list
 from utils import llm, get_memory, get_prompt
 
-from tools_lib import tools_list_itinerary_gen
+from itinerary_generation.tools_lib import tools_list_itinerary_gen
 
 from dotenv import load_dotenv
 
@@ -53,16 +53,16 @@ class AgentManager:
 def execute_agent(in_params: dict):
     session_id = in_params["session_id"]
     agent_manager = AgentManager()
-    required_fields = ["location", "query", "number_of_days"]
-    if not all(field in in_params for field in required_fields):
-        print("ERROER")
-        raise ValueError("Missing required fields in in_params")
+
     try:
         print("Before Init")
         agent = agent_manager.initialize_agent()
         print("Agent Initialized")
         result = agent.invoke({
-            "input": in_params
+            "input": in_params["query"],
+            "location": in_params["location"],
+            "number_of_days": in_params["number_of_days"]
+
         }, {
             "configurable": {
                 "session_id": session_id
@@ -79,9 +79,11 @@ def execute_agent(in_params: dict):
 if __name__ == "__main__":
     in_params = {
         "location": "istanbul",
-        "query": "i would like to visit mosques",
+        "query": "i would like to visit mosques and some water activities for 5 days",
         "number_of_days": 6,
-        "session_id": "uwuwuw"
+        "session_id": "3534"
+
     }
+    print(f"in_params TYPE: {type(in_params)}")
     res = execute_agent(in_params)
     print(res)
