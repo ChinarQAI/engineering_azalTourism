@@ -16,7 +16,7 @@ from utils import es_client, setup_es_store, llm, get_memory
 es_store = setup_es_store("azal_activities", es_client)
 
 
-def get_activities_by_location_query(query: str, location: str, number_of_days: int, session_id: str):
+def get_activities_by_location_query(query: str, location: str, number_of_days: int):
     docs = es_store.similarity_search(
         query,
         k=10,
