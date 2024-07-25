@@ -36,3 +36,8 @@ class Activity(BaseModel):
 
 class BulkActivitiesInput(BaseModel):
     activities: List[Activity]
+
+
+class ItineraryGenerationInput(BaseModel):
+    query: str
+    session_id: str

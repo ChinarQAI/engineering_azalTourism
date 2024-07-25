@@ -1,0 +1,1345 @@
+{
+  "activities": [
+    {
+      "location": "Istanbul",
+      "activity_title": "Bosphorus Sunset Cruise",
+      "activity_address": "Eminönü Pier, Fatih, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Enjoy a romantic sunset cruise along the Bosphorus Strait, witnessing the city's iconic skyline as day turns to night. The tour includes light refreshments and live commentary.",
+      "min_price": "35",
+      "max_price": "50"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Topkapi Palace Museum Tour",
+      "activity_address": "Cankurtaran, 34122 Fatih/İstanbul",
+      "duration": "3 Hours",
+      "activity_description": "Explore the opulent Topkapi Palace, home to Ottoman sultans for nearly 400 years. Discover its rich history, stunning architecture, and priceless artifacts with a knowledgeable guide.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Cooking Class",
+      "activity_address": "Caferağa Mahallesi, Kadıköy, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Learn to cook authentic Turkish dishes in a hands-on cooking class. Visit a local market, prepare a 4-course meal, and enjoy your creations with fellow food enthusiasts.",
+      "min_price": "60",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Grand Bazaar Shopping Tour",
+      "activity_address": "Beyazıt, Kalpakçılar Cd. No:22, 34126 Fatih/İstanbul",
+      "duration": "3 Hours",
+      "activity_description": "Navigate the bustling Grand Bazaar with a local guide. Learn bargaining techniques, discover hidden gems, and shop for authentic Turkish souvenirs and handicrafts.",
+      "min_price": "30",
+      "max_price": "45"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Whirling Dervishes Show",
+      "activity_address": "Sinanpaşa, Beşiktaş, Istanbul",
+      "duration": "1.5 Hours",
+      "activity_description": "Witness the mesmerizing Sufi ritual of the Whirling Dervishes in a historic venue. Learn about the spiritual significance and enjoy traditional Turkish music.",
+      "min_price": "40",
+      "max_price": "55"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Hammam Experience",
+      "activity_address": "Süleymaniye, Fatih, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Indulge in a traditional Turkish bath experience. Enjoy a steam room, exfoliating scrub, foam massage, and relaxation in a historic hammam setting.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Princes' Islands Day Trip",
+      "activity_address": "Kabataş Ferry Terminal, Beyoğlu, Istanbul",
+      "duration": "8 Hours",
+      "activity_description": "Escape the city bustle with a day trip to the Princes' Islands. Enjoy a ferry ride, horse-drawn carriage tour, swimming, and a seafood lunch on Büyükada Island.",
+      "min_price": "70",
+      "max_price": "100"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Hagia Sophia Guided Tour",
+      "activity_address": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul",
+      "duration": "2 Hours",
+      "activity_description": "Discover the rich history and stunning architecture of Hagia Sophia with an expert guide. Learn about its transformation from a church to a mosque and now a museum.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Bosphorus Fishing Trip",
+      "activity_address": "Arnavutköy, Beşiktaş, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Try your hand at fishing in the Bosphorus Strait. Learn local techniques, enjoy stunning views, and have the option to cook and eat your catch.",
+      "min_price": "55",
+      "max_price": "75"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Coffee Fortune Telling",
+      "activity_address": "Cihangir, Beyoğlu, Istanbul",
+      "duration": "1 Hour",
+      "activity_description": "Experience the mystical tradition of Turkish coffee fortune telling. Enjoy a cup of authentic Turkish coffee and have your fortune read by a local seer.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Balat and Fener Walking Tour",
+      "activity_address": "Balat, Fatih, Istanbul",
+      "duration": "3 Hours",
+      "activity_description": "Explore the colorful neighborhoods of Balat and Fener. Discover hidden churches, vibrant street art, and local cafes in these historic Jewish and Greek quarters.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Sultanahmet Mosque Night Tour",
+      "activity_address": "Sultanahmet, Fatih, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Experience the Blue Mosque illuminated at night. Learn about Islamic architecture and enjoy the serene atmosphere with fewer crowds.",
+      "min_price": "20",
+      "max_price": "30"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Mount Uludağ Cable Car Ride",
+      "activity_address": "Teferrüç, 16110 Osmangazi/Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Take a scenic cable car ride to the summit of Mount Uludağ, offering panoramic views of Bursa and surrounding landscapes. Enjoy hiking or skiing depending on the season.",
+      "min_price": "20",
+      "max_price": "30"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Grand Mosque Tour",
+      "activity_address": "Nalbantoğlu, Ulu Cami, 16010 Osmangazi/Bursa",
+      "duration": "1.5 Hours",
+      "activity_description": "Explore the historic Grand Mosque of Bursa, known for its 20 domes and calligraphy-adorned walls. Learn about Ottoman architecture and Islamic traditions.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Silk Bazaar Shopping Experience",
+      "activity_address": "Koza Han, Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Visit the historic Silk Bazaar, once a major stop on the Silk Road. Shop for high-quality silk products, textiles, and local handicrafts with a knowledgeable guide.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Turkish Bath in Bursa",
+      "activity_address": "Çekirge, Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Relax in a traditional Turkish bath, known for its healing thermal waters. Enjoy a steam room, massage, and scrub in a historic hammam setting.",
+      "min_price": "40",
+      "max_price": "60"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa City Tour",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "6 Hours",
+      "activity_description": "Discover the highlights of Bursa, including the Green Mosque, Tomb of Osman Gazi, and Cumalıkızık Village. Learn about the city's rich Ottoman history.",
+      "min_price": "50",
+      "max_price": "70"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Kebab Cooking Class",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Learn to prepare the famous Iskender kebab and other Bursa specialties in a hands-on cooking class. Enjoy your creations with fellow food enthusiasts.",
+      "min_price": "45",
+      "max_price": "65"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Uluabat Lake Boat Tour",
+      "activity_address": "Gölyazı, Nilüfer, Bursa",
+      "duration": "4 Hours",
+      "activity_description": "Explore the scenic Uluabat Lake by boat. Observe diverse birdlife, visit the historic island village of Gölyazı, and enjoy a lakeside picnic lunch.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Archaeology Museum Visit",
+      "activity_address": "Kültürpark, Çekirge, Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Discover artifacts from various civilizations that inhabited the region, including Roman, Byzantine, and Ottoman periods. Guided tour available.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Botanical Garden Walk",
+      "activity_address": "Soğanlı, Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Stroll through Bursa's beautiful botanical garden, home to diverse plant species, themed gardens, and peaceful walking trails. Perfect for nature lovers.",
+      "min_price": "5",
+      "max_price": "15"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Mudanya Seaside Excursion",
+      "activity_address": "Mudanya, Bursa",
+      "duration": "5 Hours",
+      "activity_description": "Visit the charming coastal town of Mudanya. Enjoy seafood restaurants, explore historic Ottoman houses, and relax on the beach.",
+      "min_price": "40",
+      "max_price": "60"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Sword and Knife Making Workshop",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Learn about traditional Turkish metalworking techniques. Create your own small knife or decorative sword under expert guidance.",
+      "min_price": "60",
+      "max_price": "90"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Ephesus Ancient City Tour",
+      "activity_address": "Selçuk, İzmir",
+      "duration": "6 Hours",
+      "activity_description": "Explore the well-preserved ruins of Ephesus, including the Library of Celsus, Temple of Artemis, and Great Theatre. Learn about ancient Roman life from an expert guide.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir City Tour",
+      "activity_address": "Konak Square, Izmir",
+      "duration": "4 Hours",
+      "activity_description": "Discover Izmir's highlights, including Konak Square, Kemeralti Bazaar, and Kadifekale. Learn about the city's rich history and modern culture.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Cesme and Alacati Day Trip",
+      "activity_address": "Çeşme, İzmir",
+      "duration": "8 Hours",
+      "activity_description": "Visit the charming coastal towns of Cesme and Alacati. Enjoy beautiful beaches, picturesque streets, boutique shops, and excellent seafood restaurants.",
+      "min_price": "60",
+      "max_price": "90"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Wine Tasting in Urla",
+      "activity_address": "Urla, İzmir",
+      "duration": "5 Hours",
+      "activity_description": "Explore the vineyards of Urla and taste a variety of local wines. Learn about wine production techniques and enjoy a light lunch with vineyard views.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Wild Life Park Visit",
+      "activity_address": "Çiğli, İzmir",
+      "duration": "3 Hours",
+      "activity_description": "Observe various animal species in natural habitats at Izmir Wild Life Park. Enjoy interactive exhibits and educational presentations about wildlife conservation.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Bergama Acropolis Tour",
+      "activity_address": "Bergama, İzmir",
+      "duration": "4 Hours",
+      "activity_description": "Explore the ancient Acropolis of Pergamon, including the impressive Theatre and Temple of Trajan. Learn about Hellenistic civilization and enjoy panoramic views.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Cooking Class",
+      "activity_address": "Alsancak, Konak, İzmir",
+      "duration": "4 Hours",
+      "activity_description": "Learn to prepare traditional Aegean dishes in a hands-on cooking class. Visit a local market, cook a 3-course meal, and enjoy your creations with Turkish wine.",
+      "min_price": "50",
+      "max_price": "75"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Boat Trip to Karaburun Peninsula",
+      "activity_address": "Karaburun, İzmir",
+      "duration": "7 Hours",
+      "activity_description": "Enjoy a scenic boat trip along the Karaburun Peninsula. Swim in secluded bays, snorkel in crystal-clear waters, and enjoy a freshly prepared lunch on board.",
+      "min_price": "55",
+      "max_price": "80"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Smyrna Agora Archaeological Site Tour",
+      "activity_address": "Namazgah, 35250 Konak/İzmir",
+      "duration": "2 Hours",
+      "activity_description": "Explore the ancient ruins of Smyrna Agora, the old marketplace of Izmir. Learn about daily life in ancient times and see well-preserved Roman artifacts.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Seferihisar Slow City Experience",
+      "activity_address": "Seferihisar, İzmir",
+      "duration": "6 Hours",
+      "activity_description": "Visit Turkey's first 'Cittaslow' town. Enjoy organic local cuisine, explore traditional markets, and participate in sustainable living workshops.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Bird Paradise Tour",
+      "activity_address": "Çamaltı Tuzlası, Çiğli, İzmir",
+      "duration": "4 Hours",
+      "activity_description": "Observe diverse bird species in their natural habitat at Izmir Bird Paradise. Guided tour includes bird watching equipment and expert commentary.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Kemeralti Bazaar Food Tour",
+      "activity_address": "Konak, İzmir",
+      "duration": "3 Hours",
+      "activity_description": "Taste your way through Izmir's historic bazaar. Sample local delicacies, Turkish coffee, and traditional sweets while exploring vibrant market stalls.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Hot Air Balloon Ride",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Experience a breathtaking sunrise hot air balloon flight over Cappadocia's unique landscape. Enjoy panoramic views of fairy chimneys and valleys.",
+      "min_price": "150",
+      "max_price": "250"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Underground City Tour",
+      "activity_address": "Derinkuyu, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Explore the ancient underground city of Derinkuyu. Discover multi-level tunnels, living quarters, and learn about the history of these subterranean settlements.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Göreme Open Air Museum Visit",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Discover rock-cut churches and monasteries with well-preserved Byzantine frescoes. Learn about early Christian history in Cappadocia.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Horseback Riding in Rose Valley",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Explore the beautiful Rose Valley on horseback. Ride through scenic paths, visit hidden cave churches, and enjoy stunning views of the landscape.",
+      "min_price": "40",
+      "max_price": "60"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Turkish Night Show",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Experience traditional Turkish entertainment with folk dances, music, and a belly dancing show. Enjoy local cuisine and unlimited drinks.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Pottery Workshop in Avanos",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Learn the art of pottery making in Avanos, famous for its red clay. Create your own ceramic piece under the guidance of skilled artisans.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Ihlara Valley Hiking Tour",
+      "activity_address": "Ihlara, Aksaray",
+      "duration": "6 Hours",
+      "activity_description": "Hike through the scenic Ihlara Valley, exploring rock-cut churches, ancient dwellings, and enjoying the natural beauty of the canyon.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Sunset ATV Tour",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Drive an ATV through Cappadocia's valleys and witness a stunning sunset over the unique landscape. Includes safety briefing and equipment.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Wine Tasting in Urgup",
+      "activity_address": "Ürgüp, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Sample local Cappadocian wines in a cave winery. Learn about the region's viticulture and enjoy a selection of Turkish cheeses and appetizers.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Whirling Dervishes Ceremony",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "1 Hour",
+      "activity_description": "Witness the spiritual Sema ceremony of the Whirling Dervishes in an authentic setting. Learn about Sufi traditions and mysticism.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Photography Tour",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Capture the beauty of Cappadocia with a professional photographer guide. Visit the best spots for landscape and cultural photography.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Turkish Cooking Class",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Learn to cook traditional Turkish dishes in a cave kitchen. Visit a local market, prepare a full meal, and enjoy your creations with Turkish wine.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Old Town (Kaleiçi) Walking Tour",
+      "activity_address": "Kaleiçi, Muratpaşa/Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Explore the charming streets of Antalya's Old Town. Visit historic sites, including Hadrian's Gate and the Clock Tower, and enjoy panoramic harbor views.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Düden Waterfalls Visit",
+      "activity_address": "Düden Park, Antalya",
+      "duration": "2 Hours",
+      "activity_description": "Witness the natural beauty of Upper and Lower Düden Waterfalls. Enjoy a picnic in the park and capture stunning photos of the falls.",
+      "min_price": "15",
+      "max_price": "30"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Aquarium Tour",
+      "activity_address": "Konyaaltı, Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Explore one of the world's largest tunnel aquariums. See diverse marine life, enjoy interactive exhibits, and visit the Snow World Ice Museum.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Perge Ancient City Tour",
+      "activity_address": "Aksu, Antalya",
+      "duration": "4 Hours",
+      "activity_description": "Discover the ruins of Perge, an ancient Anatolian city. Explore well-preserved Roman gates, baths, and the impressive stadium with an expert guide.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Boat Trip to Kekova Sunken City",
+      "activity_address": "Demre, Antalya",
+      "duration": "8 Hours",
+      "activity_description": "Cruise to the sunken city of Kekova. Swim in turquoise waters, explore the ancient ruins, and visit the charming village of Simena.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Jeep Safari in Taurus Mountains",
+      "activity_address": "Kemer, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Embark on an off-road adventure in the Taurus Mountains. Visit traditional villages, swim in mountain streams, and enjoy a barbecue lunch.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Museum Visit",
+      "activity_address": "Konyaaltı, Antalya",
+      "duration": "2 Hours",
+      "activity_description": "Explore one of Turkey's largest museums, housing artifacts from the Stone Age to Byzantine period. Highlights include the Hall of Gods and ancient sculptures.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Aspendos Theater and Side Day Trip",
+      "activity_address": "Serik, Antalya",
+      "duration": "8 Hours",
+      "activity_description": "Visit the well-preserved Roman theater of Aspendos and explore the ancient city of Side. Includes visits to the Temple of Apollo and the Agora.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Parasailing at Lara Beach",
+      "activity_address": "Lara Beach, Antalya",
+      "duration": "30 Minutes",
+      "activity_description": "Experience the thrill of parasailing over the Mediterranean. Enjoy breathtaking views of Antalya's coastline from high above the sea.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Turkish Hammam Experience",
+      "activity_address": "Muratpaşa, Antalya",
+      "duration": "2 Hours",
+      "activity_description": "Indulge in a traditional Turkish bath experience. Enjoy a steam room, body scrub, foam massage, and relaxation in a historic hammam.",
+      "min_price": "35",
+      "max_price": "60"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Olympos and Chimera Flame Tour",
+      "activity_address": "Kumluca, Antalya",
+      "duration": "10 Hours",
+      "activity_description": "Explore the ancient ruins of Olympos, relax on its beautiful beach, and witness the eternal flames of Chimera. Includes nature walks and swimming stops.",
+      "min_price": "55",
+      "max_price": "85"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Köprülü Canyon Rafting Adventure",
+      "activity_address": "Manavgat, Antalya",
+      "duration": "8 Hours",
+      "activity_description": "Experience white-water rafting in the scenic Köprülü Canyon. Includes safety briefing, equipment, and a riverside lunch after the adventure.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Dolmabahçe Palace Tour",
+      "activity_address": "Vişnezade, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul",
+      "duration": "3 Hours",
+      "activity_description": "Explore the opulent Dolmabahçe Palace, home to the last Ottoman Sultans. Admire its blend of European and Ottoman styles and see the world's largest Bohemian crystal chandelier.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Bosphorus Dinner Cruise",
+      "activity_address": "Kabataş Pier, Beşiktaş, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Enjoy a romantic dinner cruise along the Bosphorus. Savor Turkish cuisine while taking in views of illuminated palaces, mosques, and bridges.",
+      "min_price": "60",
+      "max_price": "90"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Street Food Tour in Kadıköy",
+      "activity_address": "Kadıköy, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Discover Istanbul's culinary delights in the vibrant Kadıköy district. Sample various street foods, visit local markets, and learn about Turkish cuisine.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Miniaturk Museum Visit",
+      "activity_address": "Sütlüce, 34050 Eyüpsultan/İstanbul",
+      "duration": "2 Hours",
+      "activity_description": "Explore miniature versions of Turkey's most famous landmarks at Miniaturk, the world's largest miniature park. Perfect for families and photography enthusiasts.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Beylerbeyi Palace Tour",
+      "activity_address": "Beylerbeyi, Abdullahağa Cd., 34676 Üsküdar/İstanbul",
+      "duration": "2 Hours",
+      "activity_description": "Visit the elegant Beylerbeyi Palace, a former imperial Ottoman summer residence. Admire its ornate interiors and beautiful Bosphorus views.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Trekking in Uludağ National Park",
+      "activity_address": "Uludağ National Park, Osmangazi, Bursa",
+      "duration": "6 Hours",
+      "activity_description": "Enjoy a guided trek through the beautiful landscapes of Uludağ National Park. Discover diverse flora and fauna, and enjoy panoramic views of Bursa.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Oylat Hot Springs Relaxation",
+      "activity_address": "Oylat, İnegöl, Bursa",
+      "duration": "4 Hours",
+      "activity_description": "Relax in the therapeutic waters of Oylat Hot Springs. Enjoy spa treatments and the natural beauty of the surrounding forest.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Paragliding over Bursa",
+      "activity_address": "Uludağ, Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Experience the thrill of paragliding from Uludağ mountain. Enjoy breathtaking views of Bursa and the surrounding landscape from the air.",
+      "min_price": "80",
+      "max_price": "120"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Photography Tour",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "4 Hours",
+      "activity_description": "Capture the beauty of Bursa's historic sites and natural landscapes with a professional photographer guide. Perfect for all skill levels.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Iznik Tile Workshop",
+      "activity_address": "İznik, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Learn the art of traditional Iznik tile making. Create your own tile under expert guidance and take home a unique souvenir.",
+      "min_price": "45",
+      "max_price": "75"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Sirince Village Tour",
+      "activity_address": "Şirince, Selçuk, İzmir",
+      "duration": "5 Hours",
+      "activity_description": "Explore the charming hillside village of Sirince. Taste local wines, shop for handmade crafts, and enjoy panoramic views of olive groves.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Pamukkale Day Trip",
+      "activity_address": "Pamukkale, Denizli",
+      "duration": "12 Hours",
+      "activity_description": "Visit the stunning white travertine terraces of Pamukkale and explore the ancient city of Hierapolis. Includes round-trip transportation from Izmir.",
+      "min_price": "80",
+      "max_price": "120"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Surf Lesson in Alaçatı",
+      "activity_address": "Alaçatı, Çeşme, İzmir",
+      "duration": "3 Hours",
+      "activity_description": "Learn to windsurf or kitesurf in the windy bay of Alaçatı. Suitable for beginners and intermediate levels. Equipment and instruction included.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Nightlife Tour in Alsancak",
+      "activity_address": "Alsancak, Konak, İzmir",
+      "duration": "4 Hours",
+      "activity_description": "Experience Izmir's vibrant nightlife in the Alsancak district. Visit popular bars, enjoy live music, and mingle with locals.",
+      "min_price": "35",
+      "max_price": "60"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Baths of Varius Spa Day",
+      "activity_address": "Agora Open Air Museum, Konak, İzmir",
+      "duration": "3 Hours",
+      "activity_description": "Relax in the restored Roman baths at the Agora. Enjoy traditional spa treatments and learn about ancient bathing rituals.",
+      "min_price": "45",
+      "max_price": "75"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Balloon Ride with Champagne Breakfast",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Experience a luxurious hot air balloon ride at sunrise, followed by a champagne breakfast with panoramic views of Cappadocia's landscape.",
+      "min_price": "200",
+      "max_price": "300"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Quad Bike Adventure",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Explore Cappadocia's valleys and off-road trails on a quad bike. Enjoy the thrill of riding through unique landscapes and hidden caves.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Fairy Chimney Formation Tour",
+      "activity_address": "Paşabağı, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Discover the unique fairy chimney rock formations in Paşabağı. Learn about their geological formation and cultural significance.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Turkish Night with Belly Dancing",
+      "activity_address": "Uçhisar, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Experience a night of traditional Turkish entertainment in a cave restaurant. Enjoy folk dances, live music, and a mesmerizing belly dance show.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Cooking Class in a Cave",
+      "activity_address": "Ürgüp, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Learn to cook traditional Cappadocian dishes in a unique cave kitchen. Visit a local market, prepare a full meal, and enjoy your creations.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya City Tour with Duden Waterfall",
+      "activity_address": "Muratpaşa, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Explore Antalya's old town, visit the iconic Duden Waterfall, and enjoy a panoramic tour of the city's modern areas.",
+      "min_price": "35",
+      "max_price": "60"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Phaselis Ancient City and Beach Day",
+      "activity_address": "Tekirova, Kemer, Antalya",
+      "duration": "7 Hours",
+      "activity_description": "Visit the ancient ruins of Phaselis, surrounded by pine forests. Enjoy swimming and relaxing on its beautiful beaches.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Termessos Hiking Adventure",
+      "activity_address": "Güllük Dağı National Park, Antalya",
+      "duration": "5 Hours",
+      "activity_description": "Hike to the ancient city of Termessos, hidden high in the Taurus Mountains. Explore well-preserved ruins and enjoy stunning mountain views.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Scuba Diving in Kemer",
+      "activity_address": "Kemer, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Experience the underwater world of the Mediterranean. Suitable for beginners and certified divers. Includes two dives and equipment.",
+      "min_price": "60",
+      "max_price": "100"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Aqua Park Adventure",
+      "activity_address": "Konyaaltı, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Enjoy a day of water slides, pools, and family fun at one of Antalya's top water parks. Suitable for all ages.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Spice Bazaar Culinary Walk",
+      "activity_address": "Eminönü, Fatih, Istanbul",
+      "duration": "3 Hours",
+      "activity_description": "Explore the aromatic Spice Bazaar, taste traditional Turkish delights, and learn about the history of spices in Ottoman cuisine.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Princes' Islands Bicycle Tour",
+      "activity_address": "Büyükada, Adalar, Istanbul",
+      "duration": "6 Hours",
+      "activity_description": "Escape the city bustle with a bicycle tour of Büyükada, the largest of the Princes' Islands. Enjoy car-free roads and beautiful Victorian-era mansions.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Calligraphy Workshop",
+      "activity_address": "Sultanahmet, Fatih, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Learn the art of Turkish calligraphy from a master calligrapher. Create your own piece of art to take home as a unique souvenir.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Bosphorus Photography Cruise",
+      "activity_address": "Eminönü Pier, Fatih, Istanbul",
+      "duration": "3 Hours",
+      "activity_description": "Capture the beauty of Istanbul's shoreline on a photography-focused Bosphorus cruise. Receive tips from a professional photographer guide.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Ice Cream Making Class",
+      "activity_address": "Beyoğlu, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Learn to make traditional Turkish ice cream (dondurma) known for its unique texture. Discover the secrets of its elasticity and resistance to melting.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Extreme Sports Park",
+      "activity_address": "Nilüfer, Bursa",
+      "duration": "4 Hours",
+      "activity_description": "Experience adrenaline-pumping activities like zip-lining, rock climbing, and high ropes courses in a safe, supervised environment.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Inkaya Plane Tree Visit",
+      "activity_address": "Inkaya Village, Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Visit the 600-year-old Inkaya Plane Tree, enjoy traditional Turkish tea under its massive canopy, and take in panoramic views of Bursa.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Textile Museum Tour",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Explore Bursa's rich textile history at this interactive museum. Learn about silk production and traditional weaving techniques.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Saitabat Waterfall Hike",
+      "activity_address": "Kestel, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Enjoy a scenic hike to Saitabat Waterfall. Admire the natural beauty, have a picnic by the falls, and cool off in the pristine waters.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Botanical Park Tour",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Explore Bursa's beautiful Botanical Park, home to thousands of plant species. Enjoy themed gardens, walking trails, and a peaceful lake.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Birds Paradise Tour",
+      "activity_address": "Çiğli, Izmir",
+      "duration": "4 Hours",
+      "activity_description": "Visit Izmir Birds Paradise, a wetland sanctuary home to numerous bird species. Enjoy birdwatching and learn about local ecosystems.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Agora Ruins Exploration",
+      "activity_address": "Konak, Izmir",
+      "duration": "2 Hours",
+      "activity_description": "Discover the ancient Agora of Smyrna, exploring well-preserved Roman and Hellenistic ruins in the heart of Izmir.",
+      "min_price": "15",
+      "max_price": "30"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Foça Day Trip",
+      "activity_address": "Foça, Izmir",
+      "duration": "6 Hours",
+      "activity_description": "Visit the charming coastal town of Foça. Explore its historic streets, enjoy fresh seafood, and relax on beautiful beaches.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Olive Oil Workshop",
+      "activity_address": "Seferihisar, Izmir",
+      "duration": "3 Hours",
+      "activity_description": "Learn about olive oil production, participate in olive picking (seasonal), and enjoy an olive oil tasting session.",
+      "min_price": "35",
+      "max_price": "60"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Street Art Tour",
+      "activity_address": "Alsancak, Izmir",
+      "duration": "3 Hours",
+      "activity_description": "Discover Izmir's vibrant street art scene. Explore colorful murals and learn about local artists and their inspirations.",
+      "min_price": "20",
+      "max_price": "40"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Photo Safari",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Capture Cappadocia's unique landscapes on a guided photography tour. Visit the best spots for sunrise, sunset, and panoramic shots.",
+      "min_price": "45",
+      "max_price": "75"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Red Valley Sunset Hike",
+      "activity_address": "Red Valley, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Enjoy a scenic hike through the Red Valley, culminating in a breathtaking sunset view over Cappadocia's unique rock formations.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Ebru Art Workshop",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Learn the traditional Turkish art of marbling (Ebru). Create your own unique artwork to take home as a souvenir.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Organic Farm Visit",
+      "activity_address": "Ortahisar, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Visit a local organic farm, learn about sustainable agriculture, and enjoy a farm-to-table lunch with fresh, seasonal produce.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Night Sky Photography",
+      "activity_address": "Uçhisar, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Capture the stunning night sky over Cappadocia's unique landscape. Learn astrophotography techniques from an expert guide.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Lara Beach Day",
+      "activity_address": "Lara Beach, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Enjoy a day at the famous Lara Beach. Relax on golden sands, swim in crystal-clear waters, and try various water sports activities.",
+      "min_price": "20",
+      "max_price": "40"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Cuisine Cooking Class",
+      "activity_address": "Kaleiçi, Antalya",
+      "duration": "4 Hours",
+      "activity_description": "Learn to cook traditional Antalya dishes in a hands-on cooking class. Visit a local market and enjoy the meal you prepare.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Köprülü Canyon Ziplining",
+      "activity_address": "Köprülü Canyon, Manavgat, Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Experience the thrill of ziplining across the stunning Köprülü Canyon. Enjoy panoramic views of the canyon and river below.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Sandland Visit",
+      "activity_address": "Lara, Antalya",
+      "duration": "2 Hours",
+      "activity_description": "Explore Sandland, an open-air museum featuring impressive sand sculptures. Enjoy both day and night visits with special lighting effects.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Bicycle Tour",
+      "activity_address": "Konyaaltı, Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Explore Antalya's beautiful coastline and historic sites on a guided bicycle tour. Suitable for all fitness levels.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Street Food Tour",
+      "activity_address": "Beyoğlu, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Taste your way through Istanbul's vibrant street food scene. Sample local delicacies and learn about Turkish culinary traditions.",
+      "min_price": "40",
+      "max_price": "65"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Bosphorus Fishing Trip",
+      "activity_address": "Sarıyer, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Join local fishermen for a fishing trip on the Bosphorus. Learn traditional techniques and enjoy the catch of the day for lunch.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Turkish Coffee Fortune Telling",
+      "activity_address": "Sultanahmet, Istanbul",
+      "duration": "1 Hour",
+      "activity_description": "Experience the traditional art of Turkish coffee fortune telling. Enjoy a cup of Turkish coffee and have your fortune read from the grounds.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Nightlife Tour",
+      "activity_address": "Beyoğlu, Istanbul",
+      "duration": "5 Hours",
+      "activity_description": "Experience Istanbul's vibrant nightlife. Visit trendy bars, enjoy live music venues, and dance at popular nightclubs.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Vintage Tram Ride",
+      "activity_address": "Beyoğlu, Istanbul",
+      "duration": "1 Hour",
+      "activity_description": "Take a nostalgic ride on Istanbul's historic tram line. Travel from Taksim to Tünel, enjoying views of Istiklal Street.",
+      "min_price": "5",
+      "max_price": "10"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Silk Bazaar Shopping",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Explore the historic Silk Bazaar (Koza Han). Shop for high-quality silk products and learn about Bursa's silk-making heritage.",
+      "min_price": "Free",
+      "max_price": "Free"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Traditional Shadow Puppet Show",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "1 Hour",
+      "activity_description": "Watch a traditional Karagöz and Hacivat shadow puppet show, a UNESCO-recognized cultural heritage of Turkey.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Panorama 1326 Museum Visit",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "2 Hours",
+      "activity_description": "Experience Bursa's history through a 360-degree panoramic painting depicting the conquest of Bursa by the Ottomans.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Culinary Walk",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Taste Bursa's famous dishes on a guided food tour. Try İskender kebab, candied chestnuts, and other local specialties.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Uludag Ski Resort Day Trip",
+      "activity_address": "Uludağ, Bursa",
+      "duration": "8 Hours",
+      "activity_description": "Enjoy a day of skiing or snowboarding at Uludağ, Turkey's premier winter sports resort. Suitable for all skill levels.",
+      "min_price": "70",
+      "max_price": "120"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Clock Tower Photography",
+      "activity_address": "Konak Square, Izmir",
+      "duration": "1 Hour",
+      "activity_description": "Capture stunning photos of Izmir's iconic Clock Tower. Learn about its history and significance to the city.",
+      "min_price": "Free",
+      "max_price": "Free"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Kemeralti Market Tour",
+      "activity_address": "Konak, Izmir",
+      "duration": "3 Hours",
+      "activity_description": "Explore the bustling Kemeralti Market. Shop for local goods, taste traditional snacks, and experience the vibrant atmosphere.",
+      "min_price": "20",
+      "max_price": "40"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Bay Sunset Cruise",
+      "activity_address": "Pasaport Pier, Izmir",
+      "duration": "2 Hours",
+      "activity_description": "Enjoy a relaxing sunset cruise in Izmir Bay. Take in panoramic views of the city skyline and coastline.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Asansor Historical Elevator Ride",
+      "activity_address": "Konak, Izmir",
+      "duration": "1 Hour",
+      "activity_description": "Take a ride in the historic Asansor elevator for panoramic views of Izmir. Learn about its unique history and architecture.",
+      "min_price": "5",
+      "max_price": "10"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Street Music Walking Tour",
+      "activity_address": "Alsancak, Izmir",
+      "duration": "2 Hours",
+      "activity_description": "Experience Izmir's vibrant street music scene. Walk through popular areas and enjoy performances by local musicians.",
+      "min_price": "15",
+      "max_price": "30"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Sunrise Yoga",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "1.5 Hours",
+      "activity_description": "Start your day with a rejuvenating yoga session as the sun rises over Cappadocia's unique landscape.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Wine Tasting Tour",
+      "activity_address": "Ürgüp, Nevşehir",
+      "duration": "4 Hours",
+      "activity_description": "Visit local wineries and taste a variety of Cappadocian wines. Learn about the region's unique viticulture.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Carpet Weaving Workshop",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "3 Hours",
+      "activity_description": "Learn the traditional art of Turkish carpet weaving. Create your own small carpet to take home as a souvenir.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Horseback Riding",
+      "activity_address": "Göreme, Nevşehir",
+      "duration": "2 Hours",
+      "activity_description": "Explore Cappadocia's valleys on horseback. Suitable for beginners and experienced riders.",
+      "min_price": "35",
+      "max_price": "60"
+    },
+    {
+      "location": "Cappadocia",
+      "activity_title": "Cappadocia Whirling Dervishes Ceremony",
+      "activity_address": "Avanos, Nevşehir",
+      "duration": "1 Hour",
+      "activity_description": "Witness the mesmerizing Sema ceremony of the Whirling Dervishes in an authentic setting.",
+      "min_price": "25",
+      "max_price": "45"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Konyaalti Beach Day",
+      "activity_address": "Konyaalti Beach, Antalya",
+      "duration": "6 Hours",
+      "activity_description": "Spend a day at Antalya's popular Konyaalti Beach. Swim, sunbathe, and enjoy beachside cafes and activities.",
+      "min_price": "10",
+      "max_price": "30"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Old Town Segway Tour",
+      "activity_address": "Kaleiçi, Antalya",
+      "duration": "2 Hours",
+      "activity_description": "Explore Antalya's historic old town on a fun Segway tour. Visit key landmarks and enjoy panoramic views.",
+      "min_price": "40",
+      "max_price": "60"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Waterfall Trek",
+      "activity_address": "Düden Waterfalls, Antalya",
+      "duration": "4 Hours",
+      "activity_description": "Hike to several stunning waterfalls near Antalya, including the Upper and Lower Düden Waterfalls.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Sunset Yacht Cruise",
+      "activity_address": "Kaleiçi Marina, Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Enjoy a luxurious sunset cruise along Antalya's coastline. Includes dinner and drinks on board.",
+      "min_price": "60",
+      "max_price": "90"
+    },
+    {
+      "location": "Antalya",
+      "activity_title": "Antalya Aquarium Visit",
+      "activity_address": "Konyaaltı, Antalya",
+      "duration": "3 Hours",
+      "activity_description": "Explore one of the world's largest tunnel aquariums. See diverse marine life and visit the Snow World Ice Museum.",
+      "min_price": "20",
+      "max_price": "35"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Whirling Dervishes Show",
+      "activity_address": "Sirkeci, Fatih, Istanbul",
+      "duration": "1 Hour",
+      "activity_description": "Watch the mesmerizing Sema ceremony of the Whirling Dervishes in a historic venue.",
+      "min_price": "30",
+      "max_price": "50"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Bosphorus Dinner Cruise",
+      "activity_address": "Eminönü Pier, Istanbul",
+      "duration": "4 Hours",
+      "activity_description": "Enjoy a romantic dinner cruise along the Bosphorus. Includes Turkish cuisine, live entertainment, and stunning night views.",
+      "min_price": "60",
+      "max_price": "100"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Modern Art Museum Visit",
+      "activity_address": "Beyoğlu, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Explore Turkey's first modern art museum, featuring contemporary works by Turkish and international artists.",
+      "min_price": "15",
+      "max_price": "25"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Princes' Islands Bike Tour",
+      "activity_address": "Büyükada, Istanbul",
+      "duration": "6 Hours",
+      "activity_description": "Explore the car-free Princes' Islands by bicycle. Visit historic mansions, enjoy beach stops, and have a seafood lunch.",
+      "min_price": "50",
+      "max_price": "80"
+    },
+    {
+      "location": "Istanbul",
+      "activity_title": "Istanbul Hammam Experience",
+      "activity_address": "Sultanahmet, Istanbul",
+      "duration": "2 Hours",
+      "activity_description": "Relax in a traditional Turkish bath. Includes steam room, body scrub, and massage in a historic hammam.",
+      "min_price": "40",
+      "max_price": "70"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Green Mosque Visit",
+      "activity_address": "Yeşil, Bursa",
+      "duration": "1 Hour",
+      "activity_description": "Explore the stunning Green Mosque, known for its intricate tile work and unique architecture.",
+      "min_price": "Free",
+      "max_price": "Free"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Cable Car Ride",
+      "activity_address": "Teferrüç, Bursa",
+      "duration": "30 Minutes",
+      "activity_description": "Take a scenic cable car ride to the top of Uludağ Mountain for panoramic views of Bursa.",
+      "min_price": "10",
+      "max_price": "20"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Turkish Delight Tasting",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "1 Hour",
+      "activity_description": "Sample various flavors of Turkish Delight at a traditional confectionery. Learn about its history and production.",
+      "min_price": "15",
+      "max_price": "30"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Covered Bazaar Shopping",
+      "activity_address": "Osmangazi, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Shop for local goods and souvenirs in Bursa's historic covered bazaar. Practice your bargaining skills.",
+      "min_price": "Free",
+      "max_price": "Free"
+    },
+    {
+      "location": "Bursa",
+      "activity_title": "Bursa Thermal Springs Relaxation",
+      "activity_address": "Çekirge, Bursa",
+      "duration": "3 Hours",
+      "activity_description": "Relax in Bursa's famous thermal springs. Enjoy various pools and spa treatments for ultimate rejuvenation.",
+      "min_price": "25",
+      "max_price": "50"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Bicycle Food Tour",
+      "activity_address": "Konak, Izmir",
+      "duration": "4 Hours",
+      "activity_description": "Explore Izmir's culinary scene by bicycle. Stop at local eateries to taste regional specialties.",
+      "min_price": "45",
+      "max_price": "70"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Kadifekale Castle Visit",
+      "activity_address": "Kadifekale, Izmir",
+      "duration": "2 Hours",
+      "activity_description": "Explore the ancient Kadifekale Castle. Enjoy panoramic views of Izmir and learn about the city's history.",
+      "min_price": "Free",
+      "max_price": "Free"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Göztepe Park Picnic",
+      "activity_address": "Göztepe, Izmir",
+      "duration": "3 Hours",
+      "activity_description": "Enjoy a relaxing picnic in one of Izmir's most beautiful parks. Includes a prepared picnic basket with local treats.",
+      "min_price": "25",
+      "max_price": "40"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Street Art Workshop",
+      "activity_address": "Alsancak, Izmir",
+      "duration": "3 Hours",
+      "activity_description": "Learn street art techniques from local artists. Create your own piece on a designated wall in the city.",
+      "min_price": "35",
+      "max_price": "55"
+    },
+    {
+      "location": "Izmir",
+      "activity_title": "Izmir Traditional Instrument Workshop",
+      "activity_address": "Konak, Izmir",
+      "duration": "2 Hours",
+      "activity_description": "Learn to play traditional Turkish instruments like the saz or darbuka in a hands-on workshop.",
+      "min_price": "30",
+      "max_price": "50"
+    }
+  ]
+}

@@ -1,3 +1,15 @@
+
 {
-    
+  "user_preference": {
+    "location to visit": "string",
+    "Travel Duration": "Number of days",
+    "query": "query"
+  }
+},
+
+{
+  "itin_gen_settings": {
+    "agent_prompt_id": "<langsmith agent id>",
+    "chain_prompt_id": "<langsmith pchain id>"
+  }
 }
