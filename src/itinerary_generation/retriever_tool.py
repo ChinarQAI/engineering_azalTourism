@@ -35,7 +35,7 @@ def get_activities_by_location_query(query: str, location: str, number_of_days: 
         # Fetch documents matching the query and location from Elasticsearch
         docs = es_store.similarity_search(
             query,
-            k=10,
+            k=15,
             filter=[{"term": {"metadata.location.keyword": location.lower()}}]
         )
 
@@ -50,7 +50,8 @@ def get_activities_by_location_query(query: str, location: str, number_of_days: 
             "number_of_days": number_of_days
         })
 
-        return response
+        # return response
+        return docs
 
     except Exception as e:
         # Handle exceptions and raise them with a message
