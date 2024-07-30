@@ -25,7 +25,7 @@ if st.button("Generate Itinerary"):
         # Prepare the payload for the API request
         payload = {
             "query": modified_query,
-            "session_id": "unique_session_id"  # You can generate or fetch a unique session ID as needed
+            "session_id": "demoazal234"  # You can generate or fetch a unique session ID as needed
         }
 
         try:

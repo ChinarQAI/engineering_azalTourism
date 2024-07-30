@@ -41,3 +41,7 @@ class BulkActivitiesInput(BaseModel):
 class ItineraryGenerationInput(BaseModel):
     query: str
     session_id: str
+
+class QueryInput(BaseModel):
+    question: str
+    session_id: str
